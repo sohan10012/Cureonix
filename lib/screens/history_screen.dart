@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/app_state.dart';
-import 'results_screen.dart';
 import 'package:intl/intl.dart';
+import 'investigation_results_screen.dart';
 
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});
@@ -51,7 +51,7 @@ class HistoryScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => ResultsScreen(resultData: item),
+                          builder: (context) => InvestigationResultsScreen(results: item['results']),
                         ),
                       );
                     },

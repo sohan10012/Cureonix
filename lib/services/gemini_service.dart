@@ -1,16 +1,24 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:flutter/foundation.dart';
+
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class GeminiService {
-  final String apiKey;
+  late final String apiKey;
   final String modelId;
   final String baseUrl;
 
   GeminiService({
-    required this.apiKey,
-    this.modelId = 'gemini-1.5-flash', // Fallback/Default if 2.5 not avail, but user asked for 2.5
+    String? apiKey,
+    this.modelId = 'gemini-2.5-flash',
     this.baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models',
-  });
+  }) {
+    this.apiKey = apiKey ?? dotenv.env['GEMINI_API_KEY'] ?? '';
+    if (this.apiKey.isEmpty) {
+      debugPrint("WARNING: Gemini API Key is missing!");
+    }
+  }
 
   Future<Map<String, dynamic>> queryAgent({
     required String systemPrompt,
@@ -141,7 +149,7 @@ Example: {"selected_agent_id": "clinical_trials"}
       }
       return 'internal_knowledge'; // Fallback
     } catch (e) {
-      print("Router Error: $e");
+      debugPrint("Router Error: $e");
       return 'internal_knowledge'; // Fallback on error
     }
   }

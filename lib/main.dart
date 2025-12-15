@@ -34,7 +34,12 @@ class CureonixApp extends StatelessWidget {
       title: 'Cureonix',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      scrollBehavior: const MaterialScrollBehavior().copyWith(overscroll: false),
+      builder: (context, child) {
+        return ScrollConfiguration(
+          behavior: NoGlowScrollBehavior(),
+          child: child!,
+        );
+      },
       home: const OnboardingScreen(),
       routes: {
         '/login': (context) => const LoginScreen(),
@@ -46,5 +51,12 @@ class CureonixApp extends StatelessWidget {
         '/settings': (context) => const SettingsScreen(),
       },
     );
+  }
+}
+
+class NoGlowScrollBehavior extends ScrollBehavior {
+  @override
+  Widget buildOverscrollIndicator(BuildContext context, Widget child, ScrollableDetails details) {
+    return child;
   }
 }

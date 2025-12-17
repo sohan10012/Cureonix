@@ -1,43 +1,59 @@
+
+
 # Cureonix – Pharma Intelligence App
 
-A Flutter-based Pharma Intelligence application powered by **Gemini 2.5 Flash**.
+Cureonix is a **Flutter-based Pharma Intelligence application** designed to analyze pharmaceutical data and generate structured insights through configurable backend intelligence services.
 
 ## Features
 
-- **7 Specialized Agents**: IQVIA Insights, EXIM Trends, Patent Landscape, Clinical Trials, Internal Knowledge, Web Intelligence, Report Generator.
-- **Gemini 2.5 Flash Integration**: Directly calls the Gemini API (configurable).
-- **Structured Outputs**: Displays JSON data as formatted tables and summaries.
-- **History & Settings**: Save queries and configure API keys.
+* **Pharma Intelligence Modules**: Supports insights from market data, trade trends, patents, clinical research, internal knowledge bases, and external web sources.
+* **Configurable AI Backend**: Backend intelligence engine can be configured or replaced without UI changes.
+* **Structured Outputs**: Presents analysis results as clean tables, summaries, and reports.
+* **Query History & Settings**: Save past analyses and manage application configuration.
 
 ## Getting Started
 
 ### Prerequisites
-- Flutter SDK installed.
-- Valid Google AI Studio API Key.
+
+* Flutter SDK installed.
+* Backend service/API access (as configured for your deployment).
 
 ### Setup
 
-1.  Navigate to the project directory:
-    ```bash
-    cd cureonix_app
-    ```
-2.  Install dependencies:
-    ```bash
-    flutter pub get
-    ```
-3.  Run the app:
-    ```bash
-    flutter run
-    ```
+1. Navigate to the project directory:
+
+   ```bash
+   cd cureonix_app
+   ```
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+
+   ```bash
+   flutter run
+   ```
 
 ### Configuration
-1.  Launch the app.
-2.  Go to **Settings** (Gear icon on Dashboard).
-3.  Enter your **Gemini API Key**.
-4.  Ensure Model ID is set to `gemini-2.5-flash` (or `gemini-1.5-flash` if 2.5 is not yet enabled for your account).
+
+1. Launch the app.
+2. Open **Settings** from the dashboard.
+3. Configure backend credentials and preferences as required by your deployment.
+4. Save settings and return to the dashboard.
 
 ## Project Structure
-- `lib/config/agents.dart`: System prompts for all agents.
-- `lib/services/gemini_service.dart`: API communication.
-- `lib/screens/`: UI logic.
-- `lib/providers/app_state.dart`: State management.
+
+* `lib/config/`: Application-level configuration.
+* `lib/services/`: Backend communication and data handling.
+* `lib/screens/`: UI screens and flows.
+* `lib/providers/`: State management and application logic.
+
+---
+
+If you want, I can also:
+
+* Make this **resume-friendly (2–3 bullet version)**
+* Rewrite it for **GitHub / hackathon submission**
+* Align it with **NyayMarg / Cureonix architecture slides**

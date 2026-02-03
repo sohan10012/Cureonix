@@ -15,21 +15,19 @@ Cureonix addresses core industry challenges such as information overload, siloed
 > Visual overview of the Cureonix mobile application and key intelligence flows.
 
 ### Dashboard & Query Interface
-![Dashboard](screenshots/dashboard.png)
-![Query Interface](screenshots/query_interface.png)
+![Homepage](lib/config/WhatsApp Image 2026-02-03 at 7.12.37 PM.jpeg)
+![Dashboard](lib/config/WhatsApp Image 2026-02-03 at 7.12.38 PM.jpeg)
 
 ### Insight Generation & Analysis
 ![Structured Insights](screenshots/structured_insights.png)
 ![Pharma Intelligence Tables](screenshots/intelligence_tables.png)
 
 ### Reports & Exports
-![Pharma Story Card](screenshots/pharma_story_card.png)
-![Auto-Generated PDF](screenshots/pdf_output.png)
+![Pharma Story Card](lib/config/WhatsApp Image 2026-02-03 at 7.12.38 PM (1).jpeg)
+![Auto-Generated PDF for Montelukast Pediatri _Asthma ](lib/config/Cureonix_Montelukast_Pediatric_Asthma_Report (2).pdf)
 
 ### Settings & Configuration
-![Backend Configuration](screenshots/settings.png)
-![Preferences](screenshots/preferences.png)
-
+![Profile](lib/config/WhatsApp Image 2026-02-03 at 7.12.41 PM.jpeg)
 
 ## What Problem Cureonix Solves
 

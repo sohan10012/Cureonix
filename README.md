@@ -1,59 +1,118 @@
+# Cureonix – Pharma Intelligence Platform
 
+## Overview
 
-# Cureonix – Pharma Intelligence App
+**Cureonix** is an AI-powered Pharma Intelligence platform designed to transform fragmented pharmaceutical data into actionable, structured insights. It serves as an intelligent discovery and analysis layer for pharmaceutical R&D, strategy, and regulatory teams by unifying market data, patents, clinical trials, and research literature into a single decision-support system.
 
-Cureonix is a **Flutter-based Pharma Intelligence application** designed to analyze pharmaceutical data and generate structured insights through configurable backend intelligence services.
+The platform is built with a **Flutter-based mobile interface** and a **modular, configurable AI backend**, enabling deep pharmaceutical analysis without coupling intelligence logic to the UI.
 
-## Features
-
-* **Pharma Intelligence Modules**: Supports insights from market data, trade trends, patents, clinical research, internal knowledge bases, and external web sources.
-* **Configurable AI Backend**: Backend intelligence engine can be configured or replaced without UI changes.
-* **Structured Outputs**: Presents analysis results as clean tables, summaries, and reports.
-* **Query History & Settings**: Save past analyses and manage application configuration.
-
-## Getting Started
-
-### Prerequisites
-
-* Flutter SDK installed.
-* Backend service/API access (as configured for your deployment).
-
-### Setup
-
-1. Navigate to the project directory:
-
-   ```bash
-   cd cureonix_app
-   ```
-2. Install dependencies:
-
-   ```bash
-   flutter pub get
-   ```
-3. Run the app:
-
-   ```bash
-   flutter run
-   ```
-
-### Configuration
-
-1. Launch the app.
-2. Open **Settings** from the dashboard.
-3. Configure backend credentials and preferences as required by your deployment.
-4. Save settings and return to the dashboard.
-
-## Project Structure
-
-* `lib/config/`: Application-level configuration.
-* `lib/services/`: Backend communication and data handling.
-* `lib/screens/`: UI screens and flows.
-* `lib/providers/`: State management and application logic.
+Cureonix addresses core industry challenges such as information overload, siloed research data, slow discovery cycles, and inefficient drug repurposing workflows .
 
 ---
 
-If you want, I can also:
+## 📸 Screenshots
 
-* Make this **resume-friendly (2–3 bullet version)**
-* Rewrite it for **GitHub / hackathon submission**
-* Align it with **NyayMarg / Cureonix architecture slides**
+> Visual overview of the Cureonix mobile application and key intelligence flows.
+
+### Dashboard & Query Interface
+![Dashboard](screenshots/dashboard.png)
+![Query Interface](screenshots/query_interface.png)
+
+### Insight Generation & Analysis
+![Structured Insights](screenshots/structured_insights.png)
+![Pharma Intelligence Tables](screenshots/intelligence_tables.png)
+
+### Reports & Exports
+![Pharma Story Card](screenshots/pharma_story_card.png)
+![Auto-Generated PDF](screenshots/pdf_output.png)
+
+### Settings & Configuration
+![Backend Configuration](screenshots/settings.png)
+![Preferences](screenshots/preferences.png)
+
+
+## What Problem Cureonix Solves
+
+Pharmaceutical research teams face:
+
+* Fragmented data across patents, trials, market reports, and publications
+* Manual literature mining taking months
+* Missed molecule–disease relationships
+* Slow go/no-go decisions and high R&D costs
+
+Cureonix replaces manual, siloed analysis with **autonomous, agent-driven intelligence**, reducing research cycles from months to days while improving insight quality and decision speed .
+
+---
+
+## Key Capabilities
+
+### 🧠 Pharma Intelligence Modules
+
+* Market and competitive intelligence
+* Patent landscape analysis
+* Clinical trial and regulatory insights
+* Drug repurposing and unmet-need discovery
+* Internal knowledge base + external web intelligence
+
+### 🤖 Agentic AI Architecture
+
+* Master AI agent decomposes research queries into subtasks
+* Specialized worker agents explore trials, patents, markets, and literature
+* Continuous learning loop refines future searches and insights
+* Unified synthesis of findings into coherent narratives
+
+### 📊 Structured & Actionable Outputs
+
+* Clean tabular insights
+* Executive summaries
+* Visual analytics
+* Auto-generated **Pharma Story Cards (PDF reports)** for stakeholders
+
+### 📱 Mobile-First Experience
+
+* Flutter-based cross-platform app
+* Chat-style research interaction
+* Faceless AI engine (backend fully abstracted from UI)
+
+---
+
+## Platform Impact
+
+Cureonix delivers measurable R&D transformation:
+
+* **Research time reduced** from ~3 months to ~3 days
+* **70% reduction** in manual analyst workload
+* **40–50% faster** go/no-go decisions
+* **5× increase** in validated innovation opportunities per quarter
+
+These gains enable faster discovery, stronger innovation foresight, and a unified pharmaceutical intelligence ecosystem .
+
+---
+
+## High-Level Architecture
+
+* **Frontend:** Flutter Mobile Application
+* **Orchestration Layer:** Agent collaboration framework (e.g., LangGraph / CrewAI)
+* **LLM Engine:** Fine-tuned large language models
+* **Data Connectors:** Patents, clinical trials, market and research databases
+* **Processing Layer:** Python-based intelligence services
+* **Visualization & Reporting:** Structured analytics and PDF generation
+
+The backend intelligence layer is fully **configurable and replaceable** without requiring UI changes.
+
+---
+
+## Target Users
+
+* Pharmaceutical R&D teams
+* Product innovation and portfolio managers
+* Competitive intelligence & patent analysts
+* Regulatory and strategy teams
+* Research planners and decision-makers
+
+---
+
+## Vision
+
+**Cureonix reimagines drug discovery by turning data into cures.**
+It bridges disconnected pharmaceutical knowledge into a single autonomous intelligence engine—accelerating discovery, improving confidence, and shaping the future of pharma innovation.

@@ -13,21 +13,38 @@ Cureonix addresses core industry challenges such as information overload, siloed
 ## 📸 Screenshots
 
 > Visual overview of the Cureonix mobile application and key intelligence flows.
-### Dashboard & Query Interface
-![Homepage](lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.37%20PM.jpeg)
-![Dashboard](lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.38%20PM.jpeg)
 
-### Insight Generation & Analysis
-![Structured Insights](screenshots/structured_insights.png)
-![Pharma Intelligence Tables](screenshots/intelligence_tables.png)
+## 🧭 Dashboard & Query Interface
 
-### Reports & Exports
-![Pharma Story Card](lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.38%20PM%20(1).jpeg)
+<p align="center">
+  <img src="lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.37%20PM.jpeg" width="300"/>
+  <img src="lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.38%20PM.jpeg" width="300"/>
+</p>
 
-[📄 Auto-Generated PDF for Montelukast Pediatric Asthma](lib/config/Cureonix_Montelukast_Pediatric_Asthma_Report%20(2).pdf)
+---
 
-### Settings & Configuration
-![Profile](lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.41%20PM.jpeg)
+## 📊 Reports & Exports
+
+<p align="center">
+  <img src="lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.38%20PM%20(1).jpeg" width="320"/>
+</p>
+
+---
+
+## 📄 Sample Intelligence Report (Example)
+
+> Example of an auto-generated **Pharma Story Card** produced by Cureonix.
+
+🔗 **[Montelukast – Pediatric Asthma Intelligence Report (PDF)](lib/config/Cureonix_Montelukast_Pediatric_Asthma_Report%20(2).pdf)**
+
+---
+
+## ⚙️ Settings & Configuration
+
+<p align="center">
+  <img src="lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.41%20PM.jpeg" width="300"/>
+</p>
+
 
 ## What Problem Cureonix Solves
 

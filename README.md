@@ -23,7 +23,7 @@ Cureonix addresses core industry challenges such as information overload, siloed
 
 ---
 
-## 📊 Reports & Exports
+## 📊 Analysis Mode
 
 <p align="center">
   <img src="lib/config/WhatsApp%20Image%202026-02-03%20at%207.12.38%20PM%20(1).jpeg" width="320"/>
